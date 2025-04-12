@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #522ED3; }
+    .secondary { fill: #8C76DF; }
+    .accent { fill: #F4F7FE; }
+  </style>
+  <rect width="400" height="300" fill="white"/>
+  <path class="accent" d="M0 0h400v300H0z"/>
+  <g transform="translate(100, 50)">
+    <!-- Calendar -->
+    <rect class="secondary" x="0" y="0" width="200" height="200" rx="10"/>
+    <rect class="primary" x="20" y="40" width="160" height="140"/>
+    <!-- Expiry mark -->
+    <circle class="primary" cx="160" cy="20" r="15"/>
+    <text x="155" y="25" fill="white" font-family="Arial" font-size="16">!</text>
+  </g>
+</svg> 

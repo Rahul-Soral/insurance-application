@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #522ED3; }
+    .secondary { fill: #8C76DF; }
+    .accent { fill: #F4F7FE; }
+  </style>
+  <rect width="400" height="300" fill="white"/>
+  <path class="accent" d="M0 0h400v300H0z"/>
+  <g transform="translate(50, 50)">
+    <!-- Car illustration -->
+    <path class="primary" d="M50 100h200v80H50z"/>
+    <circle class="secondary" cx="90" cy="180" r="20"/>
+    <circle class="secondary" cx="210" cy="180" r="20"/>
+    <!-- Person -->
+    <circle class="primary" cx="30" cy="80" r="15"/>
+    <path class="primary" d="M15 95h30v40H15z"/>
+  </g>
+</svg> 

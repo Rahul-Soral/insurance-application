@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #522ED3; }
+    .secondary { fill: #8C76DF; }
+    .accent { fill: #F4F7FE; }
+  </style>
+  <rect width="400" height="300" fill="white"/>
+  <path class="accent" d="M0 0h400v300H0z"/>
+  <g transform="translate(100, 50)">
+    <!-- Shield -->
+    <path class="secondary" d="M100 0L200 40v80c0 44-40 80-100 100C40 200 0 164 0 120V40L100 0z"/>
+    <!-- Checkmark -->
+    <path class="accent" d="M45 100l35 35 75-75" stroke-width="10" stroke="white" fill="none"/>
+  </g>
+</svg> 

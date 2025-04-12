@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #522ED3; }
+    .secondary { fill: #8C76DF; }
+    .accent { fill: #F4F7FE; }
+    .text { font-family: Arial, sans-serif; fill: #522ED3; }
+  </style>
+  <rect width="400" height="300" fill="white"/>
+  <path class="accent" d="M0 0h400v300H0z"/>
+  <g transform="translate(100, 50)">
+    <!-- Calendar -->
+    <rect class="secondary" x="0" y="0" width="200" height="200" rx="10"/>
+    <rect class="primary" x="0" y="40" width="200" height="40"/>
+    <text class="text" x="70" y="65" font-size="20" fill="white">JANUARY</text>
+    <!-- Calendar grid -->
+    <g transform="translate(20, 100)">
+      <rect class="accent" x="0" y="0" width="160" height="80"/>
+      <path class="primary" d="M0 20h160M0 40h160M0 60h160M40 0v80M80 0v80M120 0v80"/>
+    </g>
+  </g>
+</svg> 

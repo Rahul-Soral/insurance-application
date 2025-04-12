@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .primary { fill: #522ED3; }
+    .secondary { fill: #8C76DF; }
+    .accent { fill: #F4F7FE; }
+  </style>
+  <rect width="400" height="300" fill="white"/>
+  <path class="accent" d="M0 0h400v300H0z"/>
+  <g transform="translate(50, 50)">
+    <!-- Car silhouettes -->
+    <path class="primary" d="M20 100h100v50H20z"/>
+    <path class="secondary" d="M140 80h120v70H140z"/>
+    <path class="primary" d="M280 60h80v90H280z"/>
+  </g>
+</svg> 
